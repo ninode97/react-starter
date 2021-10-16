@@ -1,5 +1,8 @@
 import {createContext, ReactNode, useContext, useReducer} from "react";
-import { User } from "firebase/auth";
+
+interface User {
+  
+}
 
 type AuthActions = { type: 'SIGN_IN', payload: { user: User } } | {type: 'SIGN_OUT'}
 
